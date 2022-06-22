@@ -67,8 +67,8 @@ if (coinLandsHeads === true) {
     console.log(`Jon is allowed to run away!`)
 }
 
-for-loops
-create a look that shows Jamie attacking Jon 5 times. console.log jons health after each attack
+// for-loops
+// create a look that shows Jamie attacking Jon 5 times. console.log jons health after each attack
 
 for (let i = 0 ; i < 10 ; i++) {
     jonSnowHealth -= jamieLannisterAttack - jonSnowDefense
