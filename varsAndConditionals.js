@@ -5,7 +5,8 @@
 */ 
 // Create a variable for Jon and Jamie's attack strengths.
 let jonSnowAttack = 25;
-let jamieLannisterAttack = 45
+let jamieLannisterAttack = 35
+
 
 if (jonSnowAttack > jamieLannisterAttack){
     console.log('Jon has a better attack than Jamie')
@@ -69,22 +70,22 @@ if (coinLandsHeads === true) {
 // for-loops
 // create a look that shows Jamie attacking Jon 5 times. console.log jons health after each attack
 
-for (let i = 0 ; i < 10 ; i++) {
-    jonSnowHealth -= jamieLannisterAttack - jonSnowDefense
-    if (jonSnowHealth <= 0) {
-        console.log('Jon Snow has been slain!')
-        return
-    } else {     
-        console.log(`Jon Snow's Health is down to ${jonSnowHealth} after Jamie attacked!`)
-    }
-}
-
-
-// while (jonSnowHealth > 0){
-//      jonSnowHealth -= (jamieLannisterAttack - jonSnowDefense)
-//         console.log(`Jon Snow's Health is now at: ${jonSnowHealth}`)
-//     if (jonSnowHealth <= 0){
-//         console.log('Jon has been slain!')
+// for (let i = 0 ; i < 10 ; i++) {
+//     jonSnowHealth -= jamieLannisterAttack - jonSnowDefense
+//     if (jonSnowHealth <= 0) {
+//         console.log('Jon Snow has been slain!')
+//         return
+//     } else {     
+//         console.log(`Jon Snow's Health is down to ${jonSnowHealth} after Jamie attacked!`)
 //     }
-
 // }
+
+
+while (jonSnowHealth > 0){
+     jonSnowHealth -= (jamieLannisterAttack - jonSnowDefense)
+        console.log(`Jon Snow's Health is now at: ${jonSnowHealth}`)
+    if (jonSnowHealth <= 0){
+        console.log('Jon has been slain!')
+    }
+
+}
