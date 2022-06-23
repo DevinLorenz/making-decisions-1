@@ -46,7 +46,7 @@ console.log(`~Belt Inventory: ${belt}`)
 console.log()
 
 itemCount = backPack.length
-console.log(`-Inventory Space: ${itemCount - 4}/10`)
+console.log(`-Inventory Space: ${itemCount}/10`)
 
 // There is currently no where near enough supplies to make the journey to Winterfell. Let's add some other essentials. Add the strings: flint, blanket, knife, and toothbrush.
 
@@ -58,7 +58,7 @@ console.log(`~Belt Inventory: ${belt}`)
 console.log()
 
 itemCount = backPack.length
-console.log(`-Inventory Space: ${itemCount - 4}/10`)
+console.log(`-Inventory Space: ${itemCount}/10`)
 console.log()
 // Realizing his bag is overflowing, Jon decides to split up his content into two bags. Create a backpack2 variable that will hold some items. Use the splice method to move the flint, blanket, and knife from backpack to backpack2
 
